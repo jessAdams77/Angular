@@ -23,10 +23,10 @@ public class Metodos {
 public Boolean insertProductos(List<Productos> prod) {
 		
 		String connectionUrl =
-                "jdbc:sqlserver://DESKTOP-TTASE42\\SQLEXPRESS:1433;"
-                        + "database=testBd;"
-                        + "user=serverJess;"
-                        + "password=serverjess77;";
+                "jdbc:sqlserver:<Example:localhost//SQLEXPRESS>;"
+                        + "database=<Your DataBase>;"
+                        + "user=<YourUSer>s;"
+                        + "password=<Your password>;";
         try{
         	Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
         	
